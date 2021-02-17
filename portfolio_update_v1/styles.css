@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.4) rotate(15deg);
+  transform: scale(1.4) rotate(365deg);
 }
 .tag {
   background-color: #ffffff;
@@ -101,6 +101,13 @@ header .profile-image:hover {
 .experience {
   margin-left: auto;
   margin-right: auto;
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-radius: 6px 6px 25px 25px;
+}
+
+.experience:hover {
+  border-color: green;
 }
 
 .card h2 {
@@ -116,12 +123,12 @@ header .profile-image:hover {
 }
 
 .left {
-  border-left: 4px solid #ccc;
+  border-left: 2px solid #ccc;
   border-radius: 6px 0 0 15px;
 }
 
 .right {
-  border-right: 4px solid #ccc;
+  border-right: 2px solid #ccc;
   border-radius: 0 6px 15px 0;
 }
 
