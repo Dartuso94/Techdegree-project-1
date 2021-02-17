@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: yellow;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/new-york-city.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,11 +74,11 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(15deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #ffffff;
+  color: rgb(0, 37, 80);
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -92,14 +92,49 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: justify;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+
+.experience {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.middle p {
+  text-indent: 30px;
+}
+
+.right p {
+  text-indent: 30px;
+}
+
+.left {
+  border-left: 4px solid #ccc;
+  border-radius: 6px 0 0 15px;
+}
+
+.right {
+  border-right: 4px solid #ccc;
+  border-radius: 0 6px 15px 0;
+}
+
+.left:hover {
+  border-color: red;
+}
+
+.middle:hover {
+  border-color: yellow;
+}
+
+.right:hover {
+  border-color: blue;
 }
 
 ul.skills {
