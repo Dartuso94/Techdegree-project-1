@@ -99,24 +99,6 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.resource {
-  border-left: 3px solid #ccc;
-  border-radius: 15px 6px 6px 15px;
-}
-
-.experience:hover {
-  border-color: orange;
-}
-
-.experience {
-  border-right: 3px solid #ccc;
-  border-radius: 6px 15px 15px 6px;
-}
-
-.resource:hover {
-  border-color: blue;
-}
-
 .card h2 {
   text-align: center;
   border: linen;
@@ -124,49 +106,104 @@ header .profile-image:hover {
   background: linear-gradient(to right, white, linen, orange, linen, white);
 }
 
-.experience p {
-  text-indent: 30px;
-}
-.resource p {
-  text-indent: 30px;
-}
-
-.middle p {
-  text-indent: 30px;
-}
-
-.right p {
-  text-indent: 30px;
-}
-
-.left p {
-  text-indent: 30px;
-}
-
-.left {
+.resource {
   border-left: 3px solid #ccc;
   border-radius: 15px 6px 6px 15px;
 }
 
-.middle {
-  border-radius: 6px;
+.resource:hover {
+  border-color: blue;
 }
 
-.right {
+.resource p {
+  text-indent: 30px;
+}
+
+.experience {
   border-right: 3px solid #ccc;
   border-radius: 6px 15px 15px 6px;
 }
 
-.left:hover {
-  border-color: blue;
+.experience:hover {
+  border-color: orange;
 }
 
-.middle:hover {
+.experience p {
+  text-indent: 30px;
+}
+
+.background {
+  border-right: 3px solid #ccc;
+  border-radius: 6px 15px 15px 6px;
+}
+
+.background:hover {
   border-color: violet;
 }
 
-.right:hover {
+.background p {
+  text-indent: 30px;
+}
+
+/* I switched the hobbies card for the recommendations card */
+
+.recommendations {
+  border-left: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+  border-radius: 15px;
+}
+
+.recommendations:hover {
+  border-color: darkred;
+}
+
+.recommendations p {
+  text-indent: 30px;
+}
+
+.tv-list {
+  list-style: none;
+}
+
+.brooklyn-99 {
+  width: 325px;
+  height: 200px;
+}
+
+.scrubs {
+  width: 325px;
+  height: 250px;
+}
+
+.avatar {
+  width: 325px;
+  height: 400px;
+}
+
+/* .hobbies {
+  border-right: 3px solid #ccc;
+  border-radius: 6px 15px 15px 6px;
+}
+
+.hobbies:hover {
   border-color: orange;
+}
+
+.hobbies p {
+  text-indent: 30px;
+} */
+
+.goals {
+  border-left: 3px solid #ccc;
+  border-radius: 15px 6px 6px 15px;
+}
+
+.goals:hover {
+  border-color: blue;
+}
+
+.goals p {
+  text-indent: 30px;
 }
 
 ul.skills {
